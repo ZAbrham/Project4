@@ -1,0 +1,49 @@
+.App {
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #537ccf;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.search-container {
+  display: flex;
+  width: 310px;
+  justify-content: space-between;
+}
+.search-box {
+  border-radius: 5px;
+  border: none;
+  padding: 2px 5px;
+  font-size: 1rem;
+}
+
+.search-button {
+  color: white;
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.search-results {
+  margin: 0 auto;
+}
